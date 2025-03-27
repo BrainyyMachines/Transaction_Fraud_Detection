@@ -2,11 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np 
 import pandas as pd 
-import matplotlib.pyplot as plt 
+#import matplotlib.pyplot as plt 
 import seaborn as sns 
 from sklearn.model_selection import train_test_split , GridSearchCV 
 from sklearn.preprocessing import StandardScaler,LabelEncoder 
-from sklearn.metrics import accuracy_score ,classification_report , confusion_matrix 
 import xgboost as xgb
 
 def load_model():
