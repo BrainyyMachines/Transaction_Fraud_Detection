@@ -1,5 +1,4 @@
 pickle
 numpy
 pandas
-matplotlib
 seaborn
