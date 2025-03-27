@@ -3,6 +3,10 @@ import pickle
 import numpy as np 
 import pandas as pd  
 import matplotlib as plt
+from sklearn.model_selection import train_test_split , GridSearchCV 
+from sklearn.preprocessing import StandardScaler,LabelEncoder 
+from sklearn.metrics import accuracy_score ,classification_report , confusion_matrix 
+import xgboost as xgb
 
 def load_model():
     with open("fraud_detection_XGBoost.pkl", 'rb') as file:
