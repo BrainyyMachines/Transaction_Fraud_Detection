@@ -2,5 +2,5 @@
 pickle
 numpy
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
